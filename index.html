@@ -1,117 +1,39 @@
 <!doctype html>
-<html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>sergio luis silva  - desenvolvedor</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <h2>sergio<span>.DEV</span></h2>
-                <ul>
-                    <li><a href="#inicio">inicio</a></li>
-                    <li><a href="#sobre">sobre</a></li>
-                    <li><a href="#contato>contato</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section id="inicio class="hero">
-        <div class="hero-text">
-        <h1>Ola, eu sou <span>Sergio Luis Silva</span></h1>
-        <p>De Camacari-Bahia,44 anos, comecando minha jornada para me tornar um programador profissional.</p>
-        <button onclick="mudarCor()">Clique pra mudar o tema!</button>
-        <a href="#contato" class="btn-contato">fale comigo</a>
-        </div>
-        <div class="hero-img">
-        <img src="https://via.placeholder.com/300" alt="foto sergio" id="minhaFoto">
-        <p style="font-size:12px; margin-top:10px;">Depois a gente coloca sua foto de verdade aqui</p>
-        </div>
-                    </section>
-        <section id="sobre" class="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Meu Nome e Sergio luis silva, tenho 44 anos e sou de Camacari- Bahia. Estou aprendendo a programar e meu objetivo e me tornar um programador profissional. comecei a programar agora e ja coloquei meu primeiro site no ar!
-        </p>
-        <div class="skills">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-        <span>GitHub</span>
-        </div>
-        </section>
-        <section id="contato" class="contato">
-        <h2>contato</h2>
-        <p>Entre em contato comigo atraves do formulario abaixo.</p>
-        <form>
-        <input type="text" placeholder="Sergio Luis" required>
-        <input type="email" placeholder="sergioluis6022@gmail.com" required>
-        <textarea placeholder="sua mensagem"></textarea>
-        <button type="submit">Enviar Mensagem</button>
-        </form>
-        </section>
-        <section class="sobre">
-        <h2>serviços -marketing com IA</h2>
-        <p>estou aprendendo marketing com IA em camaçari </p>
-        <div class="skills" style="margin-top:20px;">
-        <span>chtbot whatsApp</span>
-        </div>
-        <a href="https://wa.me/5571991106022?text=ola!vi seu site e quero automaçao" target="_blank" class="btn">quero automatizar meu negocio</a>
-        
-        </section>
-        <footer>
-        <p> 2026 Sergio Luis Silva- camacari-bahia.Todos os direitos reservados.</p>
-        </footer>
-                        < scrypt src="scrypt.js"></scrypt>
-                    </body>
-                    </html>
-        <!DOCTYPE html>
-<html lang="pt-br">
+html<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sorriso Premium Camaçari - Clínica Odontológica</title>
+<title>JF Construção - Tudo para sua construção</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
-body{background:#F8F8F8;color:#0A1931}
-header{background:#0A1931;padding:15px 20px;display:flex;justify-content:space-between;align-items:center}
-header h1{color:#D4AF37;font-size:20px}
-.btn-ouro{background:#D4AF37;color:#0A1931;padding:10px 20px;border-radius:30px;text-decoration:none;font-weight:bold}
-.hero{background:#0A1931;color:white;padding:40px 20px;text-align:center}
-.hero h2{font-size:32px;margin-bottom:10px}
-.hero p{color:#ccc;margin-bottom:20px}
-.card{max-width:400px;margin:-20px auto 20px;background:white;padding:20px;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,0.1)}
-.serv{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:15px 0}
-.serv div{border:1px solid #eee;padding:12px;border-radius:12px;text-align:center;font-weight:bold}
-.whats{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;width:60px;height:60px;border-radius:50%;display:flex;justify-content:center;align-items:center;font-size:30px;text-decoration:none;box-shadow:0 5px 15px rgba(0,0,0,0.3)}
+  :root{ --azul:#0b2f5b; --laranja:#ff7a00; }
+  body{ margin:0; font-family: Arial, sans-serif; background:#f4f6f8; }
+  header{ background:var(--azul); color:white; padding:20px; text-align:center; }
+  header h1{ margin:0; font-size:32px; } header span{ color:var(--laranja); }
+  .hero{ background:var(--azul); color:white; padding:40px 20px; text-align:center; }
+  .btn-zap{ background:#25D366; color:white; padding:15px 25px; border-radius:50px; text-decoration:none; display:inline-block; margin-top:15px; font-weight:bold; font-size:18px; }
+  .servicos{ padding:30px 15px; display:grid; grid-template-columns:1fr 1fr; gap:15px; max-width:800px; margin:auto; }
+  .card{ background:white; padding:20px; border-radius:12px; border-left:5px solid var(--laranja); box-shadow:0 2px 8px rgba(0,0,0,0.1); }
+  .card h3{ margin:0; color:var(--azul); }
+  .footer{ background:var(--azul); color:white; text-align:center; padding:20px; margin-top:20px; }
 </style>
 </head>
 <body>
-<header>
-<h1>🦷 SORRISO PREMIUM</h1>
-<a class="btn-ouro" href="https://wa.me/5571991106022?text=Olá! Quero agendar">Agendar</a>
-</header>
-
+<header><h1>🏗️ <span>JF</span> Construção</h1><p>Tudo para sua construção - Da fundação ao acabamento</p></header>
 <div class="hero">
-<h2>Seu sorriso de artista em Camaçari</h2>
-<p>Lentes, clareamento e implantes com condição especial esse mês</p>
-<a class="btn-ouro" href="https://wa.me/5571991106022?text=Olá! Quero avaliação">Quero Avaliação Grátis no WhatsApp</a>
+  <h2>Orçamento sem compromisso</h2>
+  <p>Pisos • Porcelanato • Hidráulica • Elétrica • Pintura</p>
+  <a class="btn-zap" href="https://wa.me/5571981081673?text=Olá%20Jorge%20da%20JF%20Construção,%20quero%20um%20orçamento!" target="_blank">📲 (71) 98108-1673 - Chamar no WhatsApp</a>
+  <p style="font-size:14px;">Jorge Luis - Camaçari, BA</p>
 </div>
-
-<div class="card">
-<h3>Nossos Tratamentos</h3>
-<div class="serv">
-<div>✨ Limpeza</div><div>😁 Clareamento</div>
-<div>💎 Lentes</div><div>🦷 Implante</div>
-<div>😬 Aparelho</div><div>🚨 Dor / Urgência</div>
+<div class="servicos">
+  <div class="card"><h3>🏠 Fundação</h3><p>Do zero com qualidade</p></div>
+  <div class="card"><h3>🧱 Alvenaria</h3><p>Levante e estrutura</p></div>
+  <div class="card"><h3>🟦 Pisos e Porcelanato</h3><p>Assentamento perfeito</p></div>
+  <div class="card"><h3>🚿 Hidráulica</h3><p>Banheiro e cozinha</p></div>
+  <div class="card"><h3>💡 Elétrica</h3><p>Instalação segura</p></div>
+  <div class="card"><h3>🎨 Pintura</h3><p>Acabamento profissional</p></div>
 </div>
-<p style="font-size:13px;color:#666;margin-top:10px">📍 Rua do Centro, 123 - Camaçari BA<br>⭐ 4.9 (127 avaliações no Google)</p>
-</div>
-
-<a class="whats" href="https://wa.me/5571991106022?text=Olá! Vim pelo site">💬</a>
+<div class="footer"><p><strong>JF Construção - Jorge Luis</strong></p><p>WhatsApp (71) 98108-1673</p></div>
 </body>
-
-</html>
-        
-        
-
+</html>Depois que fizer o Commit me manda o link do seu site jhonluis1705.github.io que eu vejo se ficou certinho!
